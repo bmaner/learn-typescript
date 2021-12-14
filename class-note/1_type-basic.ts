@@ -15,7 +15,7 @@ let heroes: Array<string> = ['Capt', 'Thor', 'Hulk'];
 let items: number[] = [1, 2, 3];
 
 // TS 튜플 : 인덱스별로 타입을 지정하는 것
-let address: [string, number] = ['gangnam', 'pangyo']; //number 타입이 들어올 자리에 문자열이 들어와서 빨간 밑줄이 생기는 것을 확인할 수 있다.
+let address: [string, number] = ['gangnam', 2]; //number 타입이 들어올 자리에 문자열이 들어와서 빨간 밑줄이 생기는 것을 확인할 수 있다.
 
 // TS 객체
 let obj: object = {};

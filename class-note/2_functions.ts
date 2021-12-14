@@ -14,8 +14,7 @@ function sum(a: number, b: number): number {
     return a + b;
 }
 
-sum(10, 20, 30, 40); // -> 파라미터를 제한하는 특성
-sum(10);
+sum(10, 20); // -> 파라미터를 제한하는 특성
 
 //함수의 옵셔널 파라미터
 function log(a: string, b?: string) {}
