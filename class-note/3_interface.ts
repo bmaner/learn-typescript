@@ -80,3 +80,9 @@ interface Person {
 interface Developer extends Person {
     language: string;
 }
+
+var captain: Developer = {
+    language: 'ts',
+    age: 100,
+    name: '캡틴'
+}
