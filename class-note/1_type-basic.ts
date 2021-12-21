@@ -9,7 +9,7 @@ var str: string = 'hello';
 let num: number = 10;
 
 // TS 배열
-let arr: Array<number> = [1, 2, 3];
+// let arr: Array<number> = [1, 2, 3];
 let heroes: Array<string> = ['Capt', 'Thor', 'Hulk'];
 // 배열은 아래와 같이 literal으로도 표현 할 수 있다.
 let items: number[] = [1, 2, 3];

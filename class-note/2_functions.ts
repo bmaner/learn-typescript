@@ -10,9 +10,9 @@ function 더하기(): number {
 }
 
 // 함수에 타입의 정의하는 방식
-function sum(a: number, b: number): number {
-    return a + b;
-}
+// function sum(a: number, b: number): number {
+//     return a + b;
+// }
 
 sum(10, 20); // -> 파라미터를 제한하는 특성
 
